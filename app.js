@@ -29,3 +29,9 @@ console.log(str1.repeat(3));
 
 // array define 
 let students = ["shubhi" , "dwivedi" ,"is","good"];
+
+// array methods
+students.push("girl"); // adds in last
+students.pop(); // deletes from last
+students.unshift("i"); // adds in front
+students.shift(); // deletes from front
