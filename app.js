@@ -12,3 +12,8 @@ let str1 = "ilovecoding";
 
 console.log(str1.indexOf("e"));
 console.log(str1.indexOf("j"));
+
+// method chaining
+
+let str2 = "     newstring     ";
+console.log(str2.trim().toUpperCase());
