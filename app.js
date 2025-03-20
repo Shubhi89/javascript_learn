@@ -17,3 +17,7 @@ console.log(str1.indexOf("j"));
 
 let str2 = "     newstring     ";
 console.log(str2.trim().toUpperCase());
+
+// slice
+console.log(str1.slice(4));
+console.log(str1.slice(3,8));
