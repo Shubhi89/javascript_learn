@@ -26,3 +26,6 @@ console.log(str1.slice(3,8));
 console.log(str1.replace("love" , "hate"));
 //repeat 
 console.log(str1.repeat(3));
+
+// array define 
+let students = ["shubhi" , "dwivedi" ,"is","good"];
