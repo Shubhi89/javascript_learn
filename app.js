@@ -7,3 +7,8 @@ console.log(str.trim()); // creates new string
 
 console.log(str.toUpperCase());
 console.log(str.toLowerCase());
+
+let str1 = "ilovecoding";
+
+console.log(str1.indexOf("e"));
+console.log(str1.indexOf("j"));
