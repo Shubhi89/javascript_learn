@@ -21,3 +21,8 @@ console.log(str2.trim().toUpperCase());
 // slice
 console.log(str1.slice(4));
 console.log(str1.slice(3,8));
+
+// replace 
+console.log(str1.replace("love" , "hate"));
+//repeat 
+console.log(str1.repeat(3));
