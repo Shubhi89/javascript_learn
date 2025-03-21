@@ -44,3 +44,5 @@ let arr2 = ["red","yellow" , "blue"];
 
 console.log(arr.concat(arr2));
 console.log(arr.reverse()); // changes in original array
+
+console.log(arr2.sort()); // not works with numbers
