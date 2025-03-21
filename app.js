@@ -39,3 +39,8 @@ arr.shift(); // deletes from front
 console.log(arr.indexOf("is"));
 console.log(arr.includes("good"));
 console.log(arr.includes("girl"));
+
+let arr2 = ["red","yellow" , "blue"];
+
+console.log(arr.concat(arr2));
+console.log(arr.reverse()); // changes in original array
