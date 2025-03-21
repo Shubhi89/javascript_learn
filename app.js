@@ -28,10 +28,14 @@ console.log(str1.replace("love" , "hate"));
 console.log(str1.repeat(3));
 
 // array define 
-let students = ["shubhi" , "dwivedi" ,"is","good"];
+let arr = ["shubhi" , "dwivedi" ,"is","good"];
 
 // array methods
-students.push("girl"); // adds in last
-students.pop(); // deletes from last
-students.unshift("i"); // adds in front
-students.shift(); // deletes from front
+arr.push("girl"); // adds in last
+arr.pop(); // deletes from last
+arr.unshift("i"); // adds in front
+arr.shift(); // deletes from front
+
+console.log(arr.indexOf("is"));
+console.log(arr.includes("good"));
+console.log(arr.includes("girl"));
