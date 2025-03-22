@@ -46,3 +46,8 @@ console.log(arr.concat(arr2));
 console.log(arr.reverse()); // changes in original array
 
 console.log(arr2.sort()); // not works with numbers
+
+// for loops
+for(let i=1;i<=10;i++) {
+    console.log(i);
+}
