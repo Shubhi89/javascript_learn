@@ -67,9 +67,16 @@ for(let i=2;i<=10;i++) {
 }
 
 const favMovie = "sitaramam";
-let guess = prompt("enter your movie");
+//let guess = prompt("enter your movie");
 
-while(guess != favMovie && guess != "quit") {
-    console.log("wrong guess");
-    guess = prompt("enter again !");
+// while(guess != favMovie && guess != "quit") {
+//     console.log("wrong guess");
+//     guess = prompt("enter again !");
+// }
+
+// for of loop
+let fruits = ["mango" , "apple" , "banana" , "litchi" , "orange"];
+
+for(fruit of fruits) {
+    console.log(fruit);
 }
