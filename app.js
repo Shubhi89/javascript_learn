@@ -65,3 +65,11 @@ for(let i=2;i<=10;i++) {
         console.log(i);
     }
 }
+
+const favMovie = "sitaramam";
+let guess = prompt("enter your movie");
+
+while(guess != favMovie && guess != "quit") {
+    console.log("wrong guess");
+    guess = prompt("enter again !");
+}
