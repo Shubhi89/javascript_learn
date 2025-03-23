@@ -80,3 +80,36 @@ let fruits = ["mango" , "apple" , "banana" , "litchi" , "orange"];
 for(fruit of fruits) {
     console.log(fruit);
 }
+
+// todo app JS
+let todo = [];
+
+let rq = prompt("please enter your request");
+
+while(true) {
+    if(rq == "quit") {
+        console.log("quitting app");
+        break;
+    }
+
+    if(rq == "list") {
+        console.log("-------------")
+        for(let i=0;i<todo.length;i++) {
+            console.log(i , todo[i])
+        }
+        console.log("-------------");
+    } else if(rq == "add") {
+        let task = prompt("please enter your task");
+        todo.push(task);
+        console.log("task is added");
+    } else if(rq == "delete") {
+        let idx = prompt("enter the task index");
+        todo.splice(idx , 1);
+        console.log("task deleted");
+    } else {
+        console.log("wrong request");
+    }
+    
+    rq = prompt("please enter your request");
+    
+}
