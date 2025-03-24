@@ -120,3 +120,11 @@ const student =  {
     age:20,
     marks: 94.4
 }; 
+
+const post = {
+    username: "@shubhidwivedi",
+    content: "I am just a girl",
+    likes: 150,
+    repost: 5,
+    tags : ["@apnacollege" , "@sigma" , "@shradhakhapra"]
+};
