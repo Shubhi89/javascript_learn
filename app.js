@@ -128,3 +128,7 @@ const post = {
     repost: 5,
     tags : ["@apnacollege" , "@sigma" , "@shradhakhapra"]
 };
+
+// to get values in object
+console.log(post[username]);
+console.log(post.username);
