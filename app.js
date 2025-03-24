@@ -132,3 +132,8 @@ const post = {
 // to get values in object
 console.log(post[username]);
 console.log(post.username);
+
+// add/update values in object
+post.likes = 200;
+post.viral = "yes";
+delete post.viral;
