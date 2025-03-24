@@ -113,3 +113,10 @@ while(true) {
     rq = prompt("please enter your request");
     
 }
+
+// object literals
+const student =  {
+    name:"shubhi",
+    age:20,
+    marks: 94.4
+}; 
