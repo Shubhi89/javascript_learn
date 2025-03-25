@@ -130,10 +130,22 @@ const post = {
 };
 
 // to get values in object
-console.log(post[username]);
+console.log(post["username"]);
 console.log(post.username);
 
 // add/update values in object
 post.likes = 200;
 post.viral = "yes";
 delete post.viral;
+
+// nested objects
+const classInfo = {
+    shubhi : {
+        grade:"A",
+        city: "Kanpur"
+    },
+    dwivedi : {
+        grade : "B",
+        city:"lucknow"
+    }
+};
