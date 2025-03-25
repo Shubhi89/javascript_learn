@@ -156,3 +156,10 @@ console.log(Math.pow(2,3));
 console.log(Math.floor(12.7));
 console.log(Math.ceil(10.1));
 console.log(Math.random()); // gives values b/w 0 to 1 , 1 is exclusive
+
+// steps to generate a integer from random function
+let num = Math.random(); // step 1
+num = num*10 // step 2 (multiply by 100 if want the range to 100..and so on)
+num = Math.floor(num); // step 3
+num = num+1; // step 4
+console.log(num);
