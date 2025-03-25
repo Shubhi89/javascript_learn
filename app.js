@@ -82,37 +82,37 @@ for(fruit of fruits) {
 }
 
 // todo app JS
-let todo = [];
+// let todo = [];
 
-let rq = prompt("please enter your request");
+// let rq = prompt("please enter your request");
 
-while(true) {
-    if(rq == "quit") {
-        console.log("quitting app");
-        break;
-    }
+// while(true) {
+//     if(rq == "quit") {
+//         console.log("quitting app");
+//         break;
+//     }
 
-    if(rq == "list") {
-        console.log("-------------")
-        for(let i=0;i<todo.length;i++) {
-            console.log(i , todo[i])
-        }
-        console.log("-------------");
-    } else if(rq == "add") {
-        let task = prompt("please enter your task");
-        todo.push(task);
-        console.log("task is added");
-    } else if(rq == "delete") {
-        let idx = prompt("enter the task index");
-        todo.splice(idx , 1);
-        console.log("task deleted");
-    } else {
-        console.log("wrong request");
-    }
+//     if(rq == "list") {
+//         console.log("-------------")
+//         for(let i=0;i<todo.length;i++) {
+//             console.log(i , todo[i])
+//         }
+//         console.log("-------------");
+//     } else if(rq == "add") {
+//         let task = prompt("please enter your task");
+//         todo.push(task);
+//         console.log("task is added");
+//     } else if(rq == "delete") {
+//         let idx = prompt("enter the task index");
+//         todo.splice(idx , 1);
+//         console.log("task deleted");
+//     } else {
+//         console.log("wrong request");
+//     }
     
-    rq = prompt("please enter your request");
+//     rq = prompt("please enter your request");
     
-}
+// }
 
 // object literals
 const student =  {
@@ -149,3 +149,10 @@ const classInfo = {
         city:"lucknow"
     }
 };
+
+// math object
+console.log(Math.abs(-10));
+console.log(Math.pow(2,3));
+console.log(Math.floor(12.7));
+console.log(Math.ceil(10.1));
+console.log(Math.random()); // gives values b/w 0 to 1 , 1 is exclusive
