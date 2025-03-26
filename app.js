@@ -163,3 +163,10 @@ num = num*10 // step 2 (multiply by 100 if want the range to 100..and so on)
 num = Math.floor(num); // step 3
 num = num+1; // step 4
 console.log(num);
+
+// functions
+function hello() {
+    console.log("hello , I am shubhi");
+}
+
+hello();
