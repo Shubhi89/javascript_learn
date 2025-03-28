@@ -218,3 +218,6 @@ const add = (a,b) => {
 };
 
 add(3,5);
+
+// implicit return 
+const mul = (a,b) => (a*b);
