@@ -202,3 +202,12 @@ const studentInfo = {
         console.log(avg);
     }
 };
+
+// try and catch
+
+try {
+    console.log(a);
+} catch(err) {
+    console.log("this is not valid");
+    console.log(err);
+}
