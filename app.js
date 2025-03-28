@@ -211,3 +211,10 @@ try {
     console.log("this is not valid");
     console.log(err);
 }
+
+// arrow functions
+const add = (a,b) => {
+    console.log(a+b);
+};
+
+add(3,5);
