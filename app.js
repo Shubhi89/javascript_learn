@@ -221,3 +221,12 @@ add(3,5);
 
 // implicit return 
 const mul = (a,b) => (a*b);
+
+// set timeout
+console.log("hello");
+
+setTimeout(() => {
+    console.log("shubhi dwivedi");
+},4000);
+
+console.log("welcome");
