@@ -230,3 +230,10 @@ setTimeout(() => {
 },4000);
 
 console.log("welcome");
+
+// set interval
+let id = setInterval(() => {
+    console.log("shubhi dwivedi");
+},2000);
+
+clearInterval(id);
