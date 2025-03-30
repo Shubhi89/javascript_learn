@@ -237,3 +237,12 @@ let id = setInterval(() => {
 },2000);
 
 clearInterval(id);
+
+// array methods
+let nums = [1,2,3,4,5,6];
+
+let result = function (el) {
+    console.log(el);
+}
+
+nums.forEach(result);
