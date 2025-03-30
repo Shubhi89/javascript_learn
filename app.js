@@ -239,10 +239,24 @@ let id = setInterval(() => {
 clearInterval(id);
 
 // array methods
+// for each
 let nums = [1,2,3,4,5,6];
 
 let result = function (el) {
     console.log(el);
 }
 
-nums.forEach(result);
+nums.forEach(result); // only prints elements of array
+
+// map function
+let nums1 = [1,2,3,4];
+let double = nums1.map((el) => { // returns all elements after processing in new array
+    return el*2;
+});
+
+// filter function
+let nums2 = [2,3,4,5,6,7,8,9];
+
+let ans = nums2.filter((el) => {
+    return el%2 == 0; // only adds in ans array if condition is true
+});
