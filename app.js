@@ -260,3 +260,10 @@ let nums2 = [2,3,4,5,6,7,8,9];
 let ans = nums2.filter((el) => {
     return el%2 == 0; // only adds in ans array if condition is true
 });
+
+// every function
+let nums3 = [2,5,6];
+
+console.log(nums3.every((el) => {
+    return el%2 == 0; // return true if every element satisfy the condition
+}));
