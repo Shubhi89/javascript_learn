@@ -267,3 +267,10 @@ let nums3 = [2,5,6];
 console.log(nums3.every((el) => {
     return el%2 == 0; // return true if every element satisfy the condition
 }));
+
+// reduce function
+let nums4 = [1,2,3,4,5];
+let finalVal = nums4.reduce((res , el) => {
+    console.log(res+el);
+    return res+el;
+});
