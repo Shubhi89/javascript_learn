@@ -285,3 +285,9 @@ function sum(...args) {
         console.log("you gave us" , args[i]);
     }
 }
+
+// destructuring
+let names = ["raju" , "akash","ramesh" , "sanjay"];
+let [first , second , ...others] = names;
+console.log(first , second);
+console.log(others);
