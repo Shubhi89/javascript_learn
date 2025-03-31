@@ -274,3 +274,7 @@ let finalVal = nums4.reduce((res , el) => {
     console.log(res+el);
     return res+el;
 });
+
+// spread 
+let nums5 = [3,45,6,5,73,839,748,849];
+console.log(Math.min(...nums5));
