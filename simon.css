@@ -30,3 +30,7 @@ body {
 .yellow {
     background-color: rgb(180, 180, 115);
 }
+
+.flash {
+    background-color: white;
+}
