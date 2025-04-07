@@ -32,6 +32,7 @@ function userFlash(btn) {
 }
 
 function levelUp() {
+    userSeq = [];
     level++;
     h2.innerText = `Level ${level}`;
 
@@ -39,13 +40,30 @@ function levelUp() {
     let randomColor = btns[randIdx];
     let randBtn = document.querySelector(`.${randomColor}`);
 
+    gameSeq.push(randomColor);
+    console.log(gameSeq)
     gameFlash(randBtn);
+}
+
+function checkAns(idx) {
+    if(userSeq[idx] === gameSeq[idx]) {
+        if(userSeq.length == gameSeq.length) {
+            setTimeout(levelUp , 1000);
+        }
+    } else {
+        h2.innerText = "Game Over , Start Again";
+    }
 }
 
 function btnPress() {
     console.log("btn was pressed");
     let btn = this;
     userFlash(btn);
+
+    userColor = btn.getAttribute("id");
+    userSeq.push(userColor);
+
+    checkAns(userSeq.length-1);
 }
 
 let allBtns = document.querySelectorAll(".btn");
