@@ -34,3 +34,11 @@ function saveToDb(data) {
     }
     });
 }
+// then and catch
+saveToDb("hello")
+.then(() => {
+    console.log("resolved");
+})
+.catch(() => {
+    console.log("rejected");
+});
