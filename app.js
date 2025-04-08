@@ -42,3 +42,20 @@ saveToDb("hello")
 .catch(() => {
     console.log("rejected");
 });
+
+// promise chaining
+saveToDb("abc")
+.then(() => {
+    console.log("data1 saved");
+    return saveToDb("xyz");
+})
+.then(() => {
+    console.log("data2 saved");
+    return saveToDb("pqr");
+})
+.then(() => {
+    console.log("data3 saved");
+})
+.catch(() => {
+    console.log("promise rejected");
+});
