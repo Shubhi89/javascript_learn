@@ -93,3 +93,13 @@ fetch(url)
 .catch((err) => {
     console.log(err);
 });
+
+// using axios
+async function getFacts() {
+    try {
+        let res = await axios.get(url);
+        console.log(res.data);
+    } catch(e) {
+        console.log(e);
+    }
+}
