@@ -103,3 +103,16 @@ async function getFacts() {
         console.log(e);
     }
 }
+
+// passing headers with axios
+const url2 = "https://icanhazdadjoke.com/";
+
+async function getJokes() {
+    try {
+        const config = {headers: {Accept : "application/json"}};
+        let res = await axios.get(url2 , config);
+        console.log(res.data.joke);
+    } catch(e) {
+        console.log(e);
+    }
+}
